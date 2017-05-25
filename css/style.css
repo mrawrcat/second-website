@@ -1,0 +1,44 @@
+*{box-sizing: border-box; /*pertains to all of the document*/
+	padding: 0;
+	margin: 0;
+}
+
+body{background-color: #CD5334;
+	   text-align: center;
+	   font-family: georgia;
+
+}
+
+nav ul{overflow: auto;
+			 list-style: none; /*makes the dots on the list disappear */
+	     /*padding: 0px; /*padding applies clockwise*/
+	     background-color: #939F5C;
+	     font-size: 30px;
+
+}
+nav li {float: left;
+	      width: 33.33%;
+	      display: block;
+	      /*text-decoration: none;*/
+	      /*border: 5px solid black;*/
+	      transition: .5s;
+	   
+}
+nav a {color: #FAD8D6;
+			 text-decoration: none;
+
+
+}
+
+nav li:hover {background-color: #EDB88B;
+
+}
+
+.hello-content{padding: 80px 20px;
+							 background-image: url("../images/teamwork.jpeg");
+							 background-size: cover;
+							 background-position: center;
+							 /*text-align: center;*/
+							 color: #E2F9B8;
+}		
+
