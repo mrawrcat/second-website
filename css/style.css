@@ -61,7 +61,10 @@ textarea {height: 400px;
 }
 .main-content{margin: 20px;
 							background-color: white;
-
+							background-image: url("../images/mario3.jpeg");
+							/*background-size: cover;*/
+							background-repeat: no-repeat;
+							background-position: center;
 }		
 .main-content h2{padding: 40px;
 								 /*background-color: #fff;*/
@@ -89,6 +92,30 @@ textarea {height: 400px;
 						display: block;
 						margin: 10px auto;
 
+}
+.row{/*background-color: pink;*/
+
+     
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1-2{float: left;
+         width: 40%;
+         background-color: red;
+         padding: 20px;
+         margin: 5%;
+         
+}
+.col-1-4{float: left;
+         width: 15%;
+         background-color: green;
+         padding: 20px;
+         margin: 5%;
 }
 /*==============================these are utility classes=================*/
 .center-text{
