@@ -38,15 +38,29 @@ nav li:hover {background-color: #EDB88B;
 
 }
 
+label {display: block;
+			/*padding: 30px;*/
+			text-align: center;
+
+}
+input {padding: 10px;
+			 margin: 20px;
+
+}
+textarea {height: 400px;
+					width: 300px;
+
+}
 .hello-content{padding: 80px 20px;
 							 background-image: url("../images/teamwork.jpeg");
 							 background-size: cover;
 							 background-position: center;
 							 /*text-align: center;*/
 							 color: #E2F9B8;
+							 text-shadow: 3px 2px red;
 }
 .main-content{margin: 20px;
-							background-color: black;
+							background-color: white;
 
 }		
 .main-content h2{padding: 40px;
@@ -55,13 +69,19 @@ nav li:hover {background-color: #EDB88B;
 								 background-image: url("../images/holdaplant.jpeg");
 								 background-size: cover;
 								 background-position: right top;
-
+								 text-shadow: 3px 2px white;
 
 
 }
 .main-content p{background-color: #fff;
 								/*padding: 0px;*/
 								/*margin: 20px;*/
+
+
+}
+.main-content button{padding: 20px;
+										 margin: auto;
+										 display: block;
 
 
 }
@@ -74,7 +94,10 @@ nav li:hover {background-color: #EDB88B;
 .center-text{
 	text-align: center;
 }
-.popupbtn{color: white;
+
+
+/*==========================this is for sidenav code=======================*/
+.popupbtn{color: black;
 
 }
 /*side nav menu*/

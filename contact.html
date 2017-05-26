@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css"><!-- links css to html  -->
-	<title>My Second Website</title>
+	<title>Contact</title>
 
 </head>
  
 <body>
 
 	<div class="hello-content">
-	  <h1>Hello World!</h1>
+	  <h1 class="center-text">Hello World!</h1>
 
 	</div>
-	
+
 	<nav>
 		<ul>
 
@@ -23,5 +23,35 @@
 		</ul>
 		
 	</nav>
+	<section class="main-content">
+			<h2 class="center-text">Send me a message!</h2>
+				<form>
+				<!-- <form method="post" action="???.php"-->
+					<label>
+						Name:
+						<input type="text" name="name" placeholder="Full Name">
+					</label>
+
+					<label>
+							Email:
+						<input type="text" name="email" placeholder="Email">
+					</label>
+					<label>
+						 Subject:
+						 <input type="text" name="Subject" placeholder="Subject">
+					</label>
+					<label>
+						 Message: <br>
+						 <textarea name="message" placeholder="type a message"></textarea>
+					</label>
+					<label>
+						<input type="radio" name="subscribe" value="yes"> Yes I want to Subscribe
+					</label>
+					<label>
+						<input type="radio" name="subscribe" value="no"> NO I don't want to Subscribe
+					</label>
+					<button type="submit">Submit</button>
+				</form>
+	</section>
 </body>
 </html>
